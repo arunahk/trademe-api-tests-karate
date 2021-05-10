@@ -1,5 +1,5 @@
 # TradeMe API Test Suite
-[![Build Status](https://circleci.com/gh/arunahk/tmsandbox-api-tests.svg?style=svg)](https://app.circleci.com/pipelines/github/arunahk/tmsandbox-api-tests?branch=main)
+[![Build Status](https://circleci.com/gh/arunahk/trademe-api-tests-karate.svg?style=svg)](https://app.circleci.com/pipelines/github/arunahk/trademe-api-tests-karate)
 
 ## Challenge
 
@@ -31,7 +31,7 @@ The Promotions element with Name = "Gallery" has a Description that contains the
 
 ## Test Execution
 
-### run test
+### Run tests
 
 * Execute tests in development environment
 
