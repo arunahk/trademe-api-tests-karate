@@ -1,4 +1,5 @@
 # TradeMe API Test Suite
+
 [![Build Status](https://circleci.com/gh/arunahk/trademe-api-tests-karate.svg?style=svg)](https://app.circleci.com/pipelines/github/arunahk/trademe-api-tests-karate)
 
 ## Challenge
@@ -24,10 +25,15 @@ The Promotions element with Name = "Gallery" has a Description that contains the
 * We want to see your best work - no lazy coding or comments.
 * We would appreciate it if you could please return your submission within one week of this email.
 
-#### Requirements
+#### Build Requirements
 
 - [JRE 1.8+](https://www.java.com/en/download/manual.jsp)
 - [maven](https://maven.apache.org)
+
+## Test Scope
+
+* Service unavailability tests were assumed out-of-scope
+* Service is assumed to be available for public use without any authentication
 
 ## Test Execution
 
@@ -42,13 +48,13 @@ The Promotions element with Name = "Gallery" has a Description that contains the
 `mvn test -Dkarate.env=prod`
 
 ## Test Reports
+
 Karate framework generates old style junit and cucumber reports.
+
 #### Cucumber Reports: `target/cucumber-html-reports`
-  ![Cucumber Reports](cucumber-report.png?raw=true)
+
+![Cucumber Reports](cucumber-report.png?raw=true)
 
 #### Karate Reports: `target/test-reports`
-  ![Karate Reports](karate-report.png?raw=true)
-  
-# Questions to ask
-* Do you have the specification for API?
-* Is there a JSON Schema available?
+
+![Karate Reports](karate-report.png?raw=true)
