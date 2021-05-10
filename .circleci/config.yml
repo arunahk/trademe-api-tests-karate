@@ -25,8 +25,12 @@ jobs:
       # Publish reports
       - store_test_results:
           path: target/test-reports
-      - store_test_results:
+      - store_artifacts:
           path: target/cucumber-html-reports
+          destination: cucumber-reports
+      - store_artifacts:
+          path: target/test-reports
+          destination: karate-reports
       - run:
           name: Save test results
           command: |

@@ -41,6 +41,11 @@ The Promotions element with Name = "Gallery" has a Description that contains the
 
 `mvn test -Dkarate.env=prod`
 
+## Test Reports
+Karate framework generates old style junit and cucumber reports.
+* Cucumber Reports: `target/cucumber-html-reports`
+* Karate Reports: `target/test-reports`
+
 # Questions to ask
 * Do you have the specification for API?
 * Is there a JSON Schema available?
