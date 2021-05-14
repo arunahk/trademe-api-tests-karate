@@ -58,3 +58,8 @@ Karate framework generates old style junit and cucumber reports.
 #### Karate Reports: `target/test-reports`
 
 ![Karate Reports](karate-report.png?raw=true)
+
+#### CircleCI Integration
+* Repository integrated with CircleCI to run tests automatically and build status is displayed in the repository
+* [https://circleci.com/gh/arunahk/trademe-api-tests-karate](https://circleci.com/gh/arunahk/trademe-api-tests-karate)
+![CirclCI Builds](circleci-integration.png?raw=true)
